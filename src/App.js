@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MyNavbar from './components/MyNavbar';
+import MyCarousel from './components/MyCarousel';
+import images from './components/ImageData';
+const navlinks = ["Tampere", "Turku", "Jyväskylä"];
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1> REACT-Bootstrap Demo</h1>
+      <br></br>
+      <h1>Music thing - Scamify</h1>
       </header>
+
+      <nav>
+        <MyNavbar links={navlinks}/>
+      </nav>
+      
+      <section className ="carousel">
+        <MyCarousel images={images}/>
+      </section>
     </div>
   );
 }
