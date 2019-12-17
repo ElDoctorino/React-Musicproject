@@ -1,29 +1,31 @@
 const images = [
     {
-        url: "https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg",
-        title: "Harry Potter",
+        url: "https://www.rytmimanuaali.fi/wp-content/uploads/Volume_keikka.jpg",
+        title: "Keikka 1",
         id: 0,
         price: 10,
-        amount: 0,
-        alt: "Harry Potter"
+        alt: "Keikka 1",
+        date: "19.1.2000",
+        Hashappened: "No",
     },
     {
-        url: "https://kbimages1-a.akamaihd.net/f2aa88e7-a1b1-413c-a3db-4b348da4282e/1200/1200/False/catching-fire-the-hunger-games-book-2.jpg",
-        title: "Hunger Games",
+        url: "https://i.ytimg.com/vi/XzP1djTc7Fs/maxresdefault.jpg",
+        title: "Keikka 2",
         id: 1,
         price: 15,
-        amount: 0,
-        alt: "Hunger Games"
+        alt: "Keikka 2",
+        date: "20.1.2000",
+        Hashappened: "Yes",
     },
     
     {
-        url: "https://images-na.ssl-images-amazon.com/images/I/8134AkhQJgL.jpg",
-        title: "Lord of the Rings",
+        url: "https://www.karjalainen.fi/media/k2/items/cache/77cd9acfaba8b9a60a0750ca3de79fa6_XL.jpg",
+        title: "Keikka 3",
         id: 2,
         price: 20,
-        amount: 0,
-        alt: "Lord of the Rings"
-
+        alt: "Keikka 3",
+        date: "21.5.2000",
+        Hashappened: "No",
     }
 ]
 
