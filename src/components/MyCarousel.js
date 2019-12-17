@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
 import {Carousel} from 'react-bootstrap';
-import images from './ImageData';
+import keikat from './GigData';
 const MyCarousel = () => {
     return (
     <Carousel>
-        {images.map(item => 
+        {keikat.map(item => 
         <Carousel.Item>
             <img
             className="d-block w-100"
